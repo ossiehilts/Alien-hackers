@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "start-app": {
+      "name": "",
+      "command": "node scripts.js playRansomNote",
+      "runAtStart": false
+    },
+    "get-flag": {
+      "name": "ࠖࠜࠑࠗࡋࡉ࠿ࡅ࠯ࡇ࠵ࡂ࠵࠯࠾࠿ࡄ࠯࠽࠵࠱࠾ࡄ࠯ࡄ࠿࠯ࡃ࠵࠵࠯ࡄ࠸࠹ࡃࡍ",
+      "command": "node scripts.js fromAlien \"$(cat alien.txt)\"",
+      "runAtStart": false
+    }
+  }
+}
